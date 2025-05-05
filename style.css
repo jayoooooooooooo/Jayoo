@@ -1,0 +1,139 @@
+body {
+    font-family: 'Palatino Linotype', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dab1b1;
+    color: #fff;
+}
+
+nav a {
+    color: #3D0A05; /* Initial link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    color: #f0f0f0; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+}
+
+.f2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #a57070;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 10px 0; /* Spacing around the paragraph */
+}
+
+.social-icons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 15px; /* Increased space between icons */
+    margin: 20px 0; /* Margin around icons */
+}
+
+.social-icons a {
+    color: rgb(38, 0, 255); /* Icon color */
+    font-size: 30px; /* Increased icon size */
+    transition: color 0.3s, transform 0.2s; /* Smooth transition for color and scale */
+    text-decoration: none; /* Remove underline */
+    padding: 5px; /* Add padding for better click area */   
+}
+
+.social-icons a:hover {
+    color: #ff6f61; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+
+.social-icons a:focus {
+    outline: 2px dashed #ff6f61; /* Add focus outline */
+    outline-offset: 2px; /* Space between the outline and the element */
+}
+
+header {
+    text-align: center;
+    padding: 50px 20px;
+    position: relative; /* Allow positioning of the initial */
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 48px;
+    margin: 0;
+    color: #3D0A05;
+}
+
+.Me-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%; /* Perfect circle */
+    object-fit: cover;
+}
+
+.Me-image:hover {
+    transform: scale(2); /* Slightly enlarge the image on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+}
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    margin: 10px 0;
+    color: #a56d68;
+}
+
+p {
+    font-family: 'Roboto', cursive;
+    font-size: 24px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+.about-container {
+    display: flex;
+    margin: 40px 20px; /* Adjusted for spacing */
+    padding: 20px; /* Added padding */
+}
+
+.about-container-wrapper {
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: rgba(78, 35, 35, 0.856); /* Optional background for contrast */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.about-container-wrapper {
+    margin-bottom: 20px; /* Optional: Add space below the container */
+}
+
+.styled-hr {
+    border: none; /* Remove default border */
+    height: 3px; /* Thickness of the line */
+    background-color: #7F1F0E;
+    margin: 20px 0; /* Space around the line */
+    width: 100%; /* Full width of the container */
+}
+
+.profile-image {
+    width: 200px;
+    height: 350px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.f1 {
+    text-align: center; /* Center text */
+    padding: 50px 20px; /* Adjust padding for better spacing */
+    background-color: #a57070; /* Background color */
+    position: relative; /* Maintain relative positioning */
+    width: 100%; /* Full width */
+    margin: 20px 0 0; /* Add top margin for spacing above the footer */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}

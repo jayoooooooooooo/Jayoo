@@ -1,0 +1,107 @@
+body {
+    font-family: 'Palatino Linotype', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dab1b1;
+    color: #000000;
+}
+
+nav a {
+    color: #3D0A05; /* Initial link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Adjust font size */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+}
+
+nav a:hover {
+    color: #f0f0f0; /* Change color on hover */
+    transform: scale(1.1); /* Slightly enlarge the link on hover */
+}
+
+p {
+    font-family: 'Roboto', cursive;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #000000;
+    align-self: auto;
+}
+
+.about-container {
+    display: ruby-text-container;
+    margin: 40px 40px; /* Adjusted for spacing */
+    padding: 10px; /* Added padding */
+}
+
+.about-container-wrapper {
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0 auto; /* Center the container */
+    padding: 20px; /* Add padding */
+    background-color: rgba(78, 35, 35, 0.856); /* Optional background for contrast */
+    border-radius: 10px; /* Slightly rounded corners */
+}
+
+.about-container-wrapper {
+    margin-bottom: 200px; /* Optional: Add space below the container */
+}
+
+.profile-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profile-image {
+    margin-right: 10px; /* Add space between the image and text */
+}
+  
+.ENHYPEN {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    gap: 15px; /* Increased space between icons */
+    margin: 20px 0; /* Margin around icons */
+  }
+.ENHYPEN {
+    display: flex; /* Use flexbox */
+    align-items: top; /* Vertically align items */
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%; /* Perfect circle */
+    object-fit: cover;
+}
+
+.profile-image:hover {
+    transform: scale(1.5); /* Slightly enlarge the image on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add shadow effect on hover */
+}
+
+.BABYMON {
+    display: flex; /* Use flexbox for layout */
+    justify-content: right; /* Center items horizontally */
+    gap: 15px; /* Increased space between icons */
+    margin: 20px 0; /* Margin around icons */
+}
+.BABYMON {
+    display: flex; /* Use flexbox */
+    align-items: top; /* Vertically align items */
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}       
+
+.f2 {
+    text-align: center;
+    padding: 20px;
+    background-color: #a57070;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin: 10px 0; /* Spacing around the paragraph */
+}
